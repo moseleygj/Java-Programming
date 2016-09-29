@@ -1,0 +1,10 @@
+class car
+{
+static String color = "Blue";
+static String body = "Saloon";
+static String motion = "Vroom, Vroom!";
+public static String accelerate()
+{
+return motion;
+}
+}

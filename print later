@@ -1,0 +1,11 @@
+Parse string with delimeter to array
+------
+String s="Hi farshad zeinali/ how are you?/i have a question!/can you help me?";
+String[] ss=s.split("/");
+for(int i=0;i<ss.length;i++)
+{
+    System.out.println(ss[i]);
+}
+
+
+
